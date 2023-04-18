@@ -1,6 +1,8 @@
 # MermaidDiagramKeys
 Mermaid Diagram Keys
 
+Special characters https://www.w3schools.com/charsets/ref_emoji.asp
+
 ## Flowchart
 ```mermaid
 flowchart TB
@@ -16,7 +18,11 @@ flowchart TB
  
  Display{{"Display message or popup"}}
  
- dbGet[("Database Read")]---dbPost[("Database Write")]
+ dbGet[("Database Read")]---dbPost[("Database Write")]===sc
+ subgraph Special Characters
+  sc("#10067;#8986;#8987;#9201;#9940;
+  #9986;#10004;#10006;#10060;#10071;")
+ end  
    
  Process("Normal process")---SubProcess[["Sub Process"]]---If{"Decision"}---Note>"Bookmark/note"]
   
@@ -44,4 +50,6 @@ flowchart TB
  class http300,http400,http500 http500
  class Display blue
  
+  
 ```
+
