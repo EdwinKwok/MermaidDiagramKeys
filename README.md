@@ -20,7 +20,7 @@ flowchart TB
  
  dbGet[("Database Read")]---dbPost[("Database Write")]===sc
  subgraph Special Characters
-  sc("#10067;#8986;#8987;#9201;#9940;
+  sc("#10067;#8986;#8987;#9201;#9940;#9888;
   #9986;#10004;#10006;#10060;#10071;")
  end  
    
